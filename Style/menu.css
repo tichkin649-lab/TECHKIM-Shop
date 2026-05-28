@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(191, 195, 195);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+ .container{
+    width: 100%;
+    background-color: rgb(249, 250, 251);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ /* menu កន្លែងដកឃ្លាmenuអោយត្រង់ជួរ*/
+ .menu{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+ }
+ .menu li{
+    padding: 10px;
+ }
+ .menu li a{
+    text-decoration: none; 
+ }
+ .menu li a:hover{
+   background-color:orange;
+   width: 100%;
+   padding: 5px;
+   color: white;
+   border-radius: 5px;
+
+
+ }
+ .Logo{
+    margin-right: auto;
+    /* បង្ខិតTecxtឲ្យឆ្ញាយពីគ្នា */
+    padding: 10px;
+ }
+ .Logo img{
+    width: 200px;
+    height: 50px;
+ }
+ .banner img{
+   width: 100%;
+   margin-top: 10px;
+ }
+ /* brand */
+ .brand{
+   display: flex;
+ }
+ .brand .card{
+   background-color: white;
+   width: 16%;
+   height: 180px;
+   box-shadow: 0px 0px 8px 0px rgb(126, 124, 124);
+   margin: 10px;
+   /* margin tver jenh pi knea */
+   border-radius: 10px;
+   /* border-radius tver oy kaong sart */
+ }
+ .brand .card img{
+   width: 160px;
+   height: 120px;
+   border-radius: 10px;
+ }
+ .brand .card{
+   text-align: center;
+   /* dak oy text center */
+ }
+ .brand .card:hover{
+   border: 2px solid rgb(255, 0, 238);
+ }
+ /* laptop */
+ .data{
+   display: flex;
+ }
+ .data .card{
+   background-color: white;
+   width: 20%;
+   height: 600px;
+   box-shadow: 0px 0px 8px 0px ;
+   border-radius: 10px;
+   margin: 10px;
+   /* dak oy jemh pi knea */
+ }
+ .data .card img{
+   width: 190px;
+   height: 180px;
+   border-radius: 10px;
+   margin-left: 60px;
+ }
+ .data .card h3{
+   text-align: center;
+   margin-top: 10px;
+   color: blue;
+ }
+   .data .card h2{
+      margin-left: 10px;
+      margin-top: 10px;
+      color: red;
+   }
+   .data .card p{
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+   .data .card button{
+      width: 100px;
+      height: 30px;
+      margin-left: 100px;
+      margin-top: 10px;
+      border-radius: 10px;
+      background-color: rgb(0, 170, 255);
+      color: white;
+      border: none;
+      
+   }
+   .map h1{
+    text-align: center;
+   }
+  .footer{
+    background-color: rgb(0, 204, 255);
+    margin-top:150px ;
+    display: flex;
+  }
